@@ -51,10 +51,6 @@ public class ConfigHandler extends AbstractConfigHandler implements ITweakConfig
   public static int anvilMaxLevel = 40;
 
   @Config
-  @Comment("The way the game should have been made (Yes this is the fireworks thing).")
-  public static boolean betterAchievements = true;
-
-  @Config
   @Comment("Disabling this option will prevent any crops added to the config json from being right clickable.")
   public static boolean allowCropRC = true;
 
